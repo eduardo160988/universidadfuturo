@@ -2,10 +2,10 @@
 
 /** RUTAS GENERALES **/
 
-define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT']."/");
-define('DOC_ROOT_SUBIR', $_SERVER['DOCUMENT_ROOT']."");
-define('WEB_ROOT', 'https://');
-define('DOC_ROOT_CLASSES',$_SERVER['DOCUMENT_ROOT']."");
+define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT']."/universidadfuturo");
+define('DOC_ROOT_SUBIR', $_SERVER['DOCUMENT_ROOT']."/universidadfuturo");
+define('WEB_ROOT', 'http://localhost/universidadfuturo');
+define('DOC_ROOT_CLASSES',$_SERVER['DOCUMENT_ROOT']."/universidadfuturo");
  
  
 

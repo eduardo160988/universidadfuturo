@@ -1,0 +1,13 @@
+    <script src="{$WEB_ROOT}/js/jquery-3.4.0.min.js"></script>
+    <script src="{$WEB_ROOT}/js/popper.min.js"></script>
+    <script src="{$WEB_ROOT}/js/jquery.easing.min.js"></script>
+    <script src="{$WEB_ROOT}/js/bootstrap.min.js"></script>
+    <script src="{$WEB_ROOT}/js/aos.js"></script>
+    <script src="{$WEB_ROOT}/js/owl.carousel.min.js"></script>
+    <script src="{$WEB_ROOT}/js/swiper.min.js"></script>
+    <script src="{$WEB_ROOT}/js/jquery.fancybox.min.js"></script>
+    <script src="{$WEB_ROOT}/js/jquery.waypoints.min.js"></script>
+    <script src="{$WEB_ROOT}/js/jquery.counterup.min.js"></script>
+    <script src="{$WEB_ROOT}/js/jquery.matchHeight-min.js"></script>
+    <script src="{$WEB_ROOT}/js/bootnavbar.js"></script>
+    <script src="{$WEB_ROOT}/js/main.js"></script>

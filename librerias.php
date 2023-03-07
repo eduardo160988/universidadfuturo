@@ -32,7 +32,6 @@ $smarty->assign('WEB_ROOT',WEB_ROOT);
 $smarty->assign('WEB_ROOT_COMPUTER',WEB_ROOT);
 
 
-$smarty->assign('property', $property);
 
 
 
