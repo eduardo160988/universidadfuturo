@@ -68,7 +68,7 @@ button.close {
 }
 
 .default_bg {
-  background-color: #0d1028;
+  background-color: #252340;
 }
 
 .hover_bg {
@@ -96,7 +96,7 @@ button.close {
 }
 
 .black_bg {
-  background-color: #0d1028;
+  background-color: #252340;
 }
 
 .black_2_bg {
@@ -1352,12 +1352,12 @@ body p {
 
 @media (max-width: 768px) {
   .main-menu-area.bg_dark_mobile {
-    background-color: #0d1028;
+    background-color: #252340;
   }
 }
 @media (max-width: 575px) {
   .main-menu-area.bg_dark_mobile {
-    background-color: #0d1028;
+    background-color: #252340;
   }
 }
 
@@ -1410,7 +1410,7 @@ body p {
   }
 }
 .main-menu .dropdown-menu {
-  background-color: #0d1028;
+  background-color: #252340;
 }
 .main-menu .navbar {
   padding: 0;
@@ -1463,7 +1463,7 @@ body p {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #0d1028;
+  background-color: #252340;
 }
 .main-menu .navbar-brand {
   padding-right: 0.2rem;
@@ -2572,7 +2572,7 @@ body p {
   border-image-outset: inherit;
   border-image-repeat: no-repeat;
   border-image-repeat: repeat;
-  background-color: #0d1028;
+  background-color: #252340;
 }
 .single-countdown-4 p {
   color: #fff;
@@ -4947,12 +4947,12 @@ body p {
   border-radius: 0;
   margin-bottom: 30px;
   border: 1px solid #2f345b;
-  background-color: #0d1028;
+  background-color: #252340;
   color: #fff;
   height: 55px;
 }
 .reg-form-area input:focus {
-  background-color: #0d1028;
+  background-color: #252340;
 }
 .reg-form-area ::-webkit-input-placeholder {
   color: #fff;

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.4, created on 2023-03-03 23:13:37
+/* Smarty version 4.0.4, created on 2023-03-12 10:10:38
   from 'C:\xampp\htdocs\universidadfuturo\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.4',
-  'unifunc' => 'content_6402d381122e64_81128548',
+  'unifunc' => 'content_640df97e5e6743_85181419',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3e4aba4b3a171b2829976e66eb9803a68ea8e0cc' => 
     array (
       0 => 'C:\\xampp\\htdocs\\universidadfuturo\\templates\\header.tpl',
-      1 => 1677906713,
+      1 => 1678637436,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl) {
+function content_640df97e5e6743_85181419 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <!-- Start Header -->
     <header>
         <div class="header_top_area my-4">
@@ -29,16 +29,19 @@ function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl)
                     <div class="col-md-12">
                         <div class="header_top d-flex justify-content-between">
                             <div class="site_logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                                <a href="index.html"><img src="<?php echo $_smarty_tpl->tpl_vars['WEB_ROOT']->value;?>
+/images/logo.png?v=1" alt="logo" class="img-fluid"></a>
                             </div>
                             <div class="site_info d-flex justify-content-between">
-                                <div class="single_info">
+                             <!--
+                               <div class="single_info">
                                     <img src="assets/images/location.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
                                         <h6>Location</h6>
                                         <p>1010 New York, NY 10018 US</p>
                                     </div>
                                 </div>
+                             
                                 <div class="single_info">
                                     <img src="assets/images/phone.png" alt="Location" class="img-fluid">
                                     <div class="info_data">
@@ -46,9 +49,10 @@ function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl)
                                         <p>+880 2456 547</p>
                                     </div>
                                 </div>
+                            -->
                                 <div class="single_info">
                                     <button class="special-button"
-                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                        onclick="window.location.href = 'apply_form.html';">Información <i
                                             class="fa fa-angle-right"></i> <span class="button_icon"><i
                                                 class="far fa-file-alt"></i></span></button>
                                 </div>
@@ -75,7 +79,7 @@ function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl)
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                        <li class="nav-item dropdown">
+                                      <!--  <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                                 role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                                 aria-expanded="false">
@@ -88,14 +92,14 @@ function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl)
                                                 <a class="dropdown-item" href="index-3.html">Home - Online Courses</a>
                                                 <a class="dropdown-item" href="index-4.html">Home - Kindergarten</a>
                                             </div>
+                                        </li> -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">Inicio</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
+                                            <a class="nav-link" href="courses.html">Conocenos</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="courses.html">Courses</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
+                                       <!-- <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                                                 role="button" data-bs-toggle="dropdown">
                                                 Pages
@@ -122,20 +126,23 @@ function content_6402d381122e64_81128548 (Smarty_Internal_Template $_smarty_tpl)
                                                 <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
                                                 <li><a class="dropdown-item" href="apply_form.html">Apply Form</a></li>
                                             </ul>
-                                        </li>
+                                        </li>-->
                                         <li class="nav-item">
                                             <a href="students.html" class="nav-link" id="blod_pages">
-                                                Students
+                                                Conocenos
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="result.html" class="nav-link">Result</a>
+                                            <a href="result.html" class="nav-link">Estudiantes</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="notice.html" class="nav-link">Notice</a>
+                                            <a href="notice.html" class="nav-link">Academia</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">Contact</a>
+                                            <a href="contact.html" class="nav-link">Noticias</a>
+                                        </li>
+                                         <li class="nav-item">
+                                            <a href="contact.html" class="nav-link">Biblioteca</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#search_modal" data-bs-toggle="modal"
